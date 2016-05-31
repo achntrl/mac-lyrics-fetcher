@@ -3,3 +3,4 @@ credentials.ini
 *.pyc
 *.scpt
 offline/*
+.DS_Store
