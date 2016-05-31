@@ -59,7 +59,7 @@ def search(search_term,client_access_token):
             url = result["result"]["url"]
             path = result["result"]["path"]
             primaryartist_name = result["result"]["primary_artist"]["name"]
-            break
+            break # We have faith in Genius search engine :-)
     return url
 
 
