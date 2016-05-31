@@ -1,0 +1,5 @@
+output
+credentials.ini
+*.pyc
+*.scpt
+offline/*

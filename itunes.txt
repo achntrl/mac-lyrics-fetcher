@@ -1,0 +1,16 @@
+# The script to enter in Apple Script Editor is below
+# Save it under itunes.scpt
+
+tell application "iTunes"
+	if player state is playing then
+		return name of current track & "
+" & artist of current track & "
+" & player position & "
+" & duration of current track
+	else
+		return "-1
+-1
+-1
+-1"
+	end if
+end tell
